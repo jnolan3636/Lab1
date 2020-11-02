@@ -1,18 +1,26 @@
 
-
 body {
   background-color: #f9fafc;
   font-family: 'Open Sans', sans-serif;
   }
-button {
-  background-color: #000;
-  color: white;
-  width: 100%;
-  border-radius: 20px;
-  padding: 10px;
-  text-align: center;
-}
+
+
+  
+  ul {
+    list-style-type: none;
+    
+  
+  
+  
+    
+ }
  
+h1 {
+  display: flex;
+  justify-content: left;
+
+  
+}
  a:link {
    color:#69696a;
    text-decoration: none;
@@ -22,20 +30,46 @@ button {
    text-decoration: none;
  }
  
- nav {
-   color:  #69696a;
- }
-  ul {
-    list-style-type: none;
   
- }
+
  blockquote
  {
    border-left: 3px solid #69696a;
    margin: 10px;
-   padding: 10px;
+   padding-left: 10px;
+   padding-top: 0px;
+   padding-bottom: 0px;
    
  }
 
+ @media only screen and (min-width:768px) {
+  ul {
+    list-style-type: none;
+    display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     
+  }
+     .top-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+ }
 
+ .nav {
+  display: flex;
+  color:  #69696a;
+  flex-direction: row;
   
+     
+}
+  
+ button {
+  background-color: #000;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+ }
+ }
